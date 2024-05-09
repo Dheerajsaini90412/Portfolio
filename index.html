@@ -197,31 +197,32 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form onsubmit="sendEmail(); reset; return false;">
+        <form name="contact-us">
                 <div class="input-box">
                     <div class="input-field">
-                        <input type="text" placeholder="Full Name" required>
+                        <input type="text" placeholder="Full Name"
+                       name="Name" required>
                         <span class="focus"></span>
                     </div>
                     <div class="input-field">
-                        <input type="text" placeholder="Email" required>
+                        <input type="text" placeholder="Email" required name="email">
                         <span class="focus"></span>
                     </div>
                 </div>
                 
                 <div class="input-box">
                     <div class="input-field">
-                        <input type="number" placeholder="Mobile Number" required>
+                        <input type="number" placeholder="Mobile Number" required name="phone">
                         <span class="focus"></span>
                     </div>
                     <div class="input-field">
-                        <input type="text" placeholder="Email Subject" required>
+                        <input type="text" placeholder="Email Subject" required name="subject">
                         <span class="focus"></span>
                     </div>
                 </div>
 
                 <div class="textarea-field">
-                    <textarea name="" id="" placeholder="Your message" rows="12"></textarea>
+                    <textarea id="" name="message" placeholder="Your message" rows="12" ></textarea>
                     <span class="focus"></span>
                 </div>
                 <div class="btn-box btn">
@@ -230,7 +231,5 @@
 
         </form>
     </section>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
 </body>
 </html>
