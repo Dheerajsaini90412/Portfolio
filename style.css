@@ -278,8 +278,7 @@ span{
 }
 .skills-box .skills-content{
     position: relative;
-    border: .2rem solid var(--main--col);
-    border-radius: .6rem;
+    border-left: .2rem solid var(--main--col);
     padding: .5rem 1.5rem;
     overflow: hidden;
     z-index: 1;
@@ -289,7 +288,6 @@ span{
     padding: 1rem 0;
     overflow: hidden;
     z-index: 1;
-    border-radius: .6rem;
 }
 .skills-content .progress::before{
     content: '';
@@ -314,8 +312,7 @@ span{
     color: var(--text--col);
 }
 .skills-content .progress .bar{
-    height: 2.5rem;
-    border: .2rem solid var(--main--col);
+    height: 1.5rem;
     border-radius: .6rem;
     padding: .5rem;
     margin: 1rem 0;
@@ -323,7 +320,6 @@ span{
 .skills-content .progress .bar span{
     display: block;
     height: 100%;
-    border-radius: .3rem;
     background: var(--main--col);
 }
 .skills-col:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
